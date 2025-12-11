@@ -10,7 +10,7 @@ pipeline {
     stage('Checkout') {
       steps {
         git(
-          url: 'https://github.com/cslikhitha/my_webapp',
+          url: 'https://github.com/likhitha050/my_webapp',
           branch: 'main',
           credentialsId: 'dockerID'
         )
